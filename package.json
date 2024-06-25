@@ -1,0 +1,46 @@
+{
+  "name": "joyid-bot",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev:https": "vite dev --host --https --force --port 443",
+    "dev": "vite",
+    "test": "vitest",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint \"src/*.{ts, tsx}\" --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@joyid/miniapp": "^0.0.7",
+    "@joyid/wagmi": "^0.1.0",
+    "@vkruglikov/react-telegram-web-app": "^2.1.5",
+    "axios": "^1.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "viem": "1.18.8",
+    "jotai": "^1.8.6",
+    "wagmi": "^1.4.5"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@types/react": "^18.2.36",
+    "@types/react-dom": "^18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.1.1",
+    "@vitejs/plugin-react-swc": "^3.4.1",
+    "daisyui": "^4.0.4",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.1",
+    "vite-plugin-mkcert": "^1.16.0",
+    "vitest": "^0.34.6"
+  }
+}
